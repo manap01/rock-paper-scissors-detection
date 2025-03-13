@@ -19,7 +19,7 @@ Sebelum memulai, pastikan Anda memiliki Python dan pip terinstall.
 pip install roboflow ultralytics
 ```
 
-## 📥 Download Dataset
+## 👅 Download Dataset
 
 Unduh dataset dari Roboflow menggunakan script berikut:
 
@@ -41,15 +41,26 @@ yolo train model=yolov8s.pt data=/absolute/path/to/data.yaml epochs=25
 
 ## 📊 Visualisasi Hasil
 
-Untuk melihat hasil pelatihan, jalankan kode berikut:
+### 🌟 Confusion Matrix
+![Confusion Matrix](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/confusion_matrix.png)
 
-```python
-from IPython.display import display
-from PIL import Image
+### 🔄 Confusion Matrix (Normalized)
+![Confusion Matrix Normalized](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/confusion_matrix_normalized.png)
 
-img = Image.open("/content/rock-paper-scissors-1/runs/detect/train/confusion_matrix.png")
-display(img)
-```
+### 🔄 Precision-Recall Curve
+![PR Curve](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/PR_curve.png)
+
+### 💡 F1 Score Curve
+![F1 Curve](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/F1_curve.png)
+
+### 📉 Recall Curve
+![Recall Curve](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/R_curve.png)
+
+### 📈 Precision Curve
+![Precision Curve](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/P_curve.png)
+
+### 🖼️ Contoh Hasil Deteksi
+![Results](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/results.png)
 
 ## 💾 Download Model
 
@@ -86,14 +97,6 @@ Untuk menghentikan fungsi ini, gunakan:
 clearInterval();
 ```
 
-## 🖼️ Contoh Hasil Deteksi
-
-Berikut adalah beberapa contoh hasil deteksi model yang telah dilatih:
-
-
-
-
-
 ## 🔗 Sumber Daya
 
 - Dataset: [Roboflow Rock-Paper-Scissors](https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw)
@@ -103,6 +106,4 @@ Berikut adalah beberapa contoh hasil deteksi model yang telah dilatih:
 ## ✍️ Kontributor
 
 - **Hanif Maulana Arrasyid**
-
-
 
