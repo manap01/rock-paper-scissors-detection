@@ -39,26 +39,6 @@ Untuk melatih model menggunakan YOLOv8, gunakan perintah berikut:
 yolo train model=yolov8s.pt data=/absolute/path/to/data.yaml epochs=25
 ```
 
-## 📊 Visualisasi Hasil
-
-### 🌟 Confusion Matrix
-![Confusion Matrix](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/confusion_matrix.png)
-
-### 🔄 Confusion Matrix (Normalized)
-![Confusion Matrix Normalized](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/confusion_matrix_normalized.png)
-
-### 🔄 Precision-Recall Curve
-![PR Curve](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/PR_curve.png)
-
-### 💡 F1 Score Curve
-![F1 Curve](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/F1_curve.png)
-
-### 📉 Recall Curve
-![Recall Curve](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/R_curve.png)
-
-### 📈 Precision Curve
-![Precision Curve](https://github.com/manap01/rock-paper-scissors-detection/blob/main/image/P_curve.png)
-
 📊 Visualisasi Hasil
 Berikut adalah hasil visualisasi model setelah pelatihan:
 
@@ -67,6 +47,7 @@ Berikut adalah hasil visualisasi model setelah pelatihan:
 ## 💾 Download Model
 
 Setelah pelatihan selesai, kompres folder hasil training dan unduh modelnya:
+
 
 ```python
 import shutil
