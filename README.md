@@ -39,7 +39,7 @@ Untuk melatih model menggunakan YOLOv8, gunakan perintah berikut:
 yolo train model=yolov8s.pt data=/absolute/path/to/data.yaml epochs=25
 ```
 
-📊 Visualisasi Hasil
+## 📊 Visualisasi Hasil
 Berikut adalah hasil visualisasi model setelah pelatihan:
 
 <table> <tr> <td><img src="image/F1_curve.png" width="250"></td> <td><img src="image/PR_curve.png" width="250"></td> <td><img src="image/P_curve.png" width="250"></td> </tr> <tr> <td><img src="image/R_curve.png" width="250"></td> <td><img src="image/confusion_matrix.png" width="250"></td> <td><img src="image/confusion_matrix_normalized.png" width="250"></td> </tr> <tr> <td><img src="image/labels.jpg" width="250"></td> <td><img src="image/labels_correlogram.jpg" width="250"></td> <td><img src="image/results.png" width="250"></td> </tr> </table>
